@@ -27,7 +27,7 @@ export class Compo1Component {
   multiplica(){this.envRes.emit(this.aux1 * this.aux2);}
   divide(){this.envRes.emit(this.aux1 / this.aux2);}
   reset(){
-    console.log('test');
+   
     this.envReset.emit('');
     
     }

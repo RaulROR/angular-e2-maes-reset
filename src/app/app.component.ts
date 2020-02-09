@@ -17,7 +17,7 @@ export class AppComponent  {
   }
 
 reset(event){
-      console.log('lerdo');
+      
        this.valor1='0';
        this.valor2='0';
        this.resultadoP=0;
